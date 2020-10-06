@@ -1,6 +1,0 @@
-VoltDB-9.2 org.voltdb:voltdbclient:9.2.2
-VoltDB-9.2 org.voltdb:voltdbclient:9.2.1
-VoltDB-9.2 org.voltdb:voltdbclient:9.2.2
-VoltDB-9.2 org.voltdb:voltdbclient:9.2.1
-VoltDB-9.2 org.voltdb:voltdbclient:9.2.2
-VoltDB-9.2 org.voltdb:voltdbclient:9.2.1
