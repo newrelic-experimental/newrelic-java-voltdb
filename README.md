@@ -14,7 +14,7 @@
 ![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic-experimental/newrelic-java-voltdb)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic-experimental/newrelic-java-voltdb)
 ![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-experimental/newrelic-java-voltdb)
-  
+   
 # New Relic Java Instrumentation for VoltDB
 
 Provides instrumentation for VoltDB.  Client calls to VoltDB will show up as database calls.
