@@ -22,11 +22,10 @@ Provides instrumentation for VoltDB.  Client calls to VoltDB will show up as dat
 ## Installation
 
 To install the instrumentation:
-1. Download the latest release.    
-2. Also download the latest release of Tibco Core instrumentation to provide support for JMS and Rendevous [Tibco-Core-Instrumentation](https://github.com/newrelic-experimental/newrelic-java-tibco-core)
-3. In the New Relic Java Agent directory, create a directory named extensions if it does not already exist.
-4. Copy the downloaded jar files into the extensions directory
-5. Restart the instance using VoltDB.  
+1. Download the latest release.
+2. In the New Relic Java Agent directory, create a directory named extensions if it does not already exist.
+3. Copy the downloaded jar files into the extensions directory
+4. Restart the instance using VoltDB.  
 
 ## Building
 
