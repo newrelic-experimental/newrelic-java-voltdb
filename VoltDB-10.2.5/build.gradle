@@ -4,7 +4,7 @@
 apply plugin: 'java'
 
 dependencies {
-	compile group: 'org.voltdb', name: 'voltdbclient', version: '9.2.1'
+	compile group: 'org.voltdb', name: 'voltdbclient', version: '10.2.5'
 
    // New Relic Java Agent dependencies
    implementation 'com.newrelic.agent.java:newrelic-agent:6.0.0'
@@ -14,7 +14,7 @@ dependencies {
 
 jar {
   manifest {
-    attributes 'Implementation-Title': 'com.newrelic.instrumentation.VoltDB-9.2'
+    attributes 'Implementation-Title': 'com.newrelic.instrumentation.VoltDB-10.2.5'
     attributes 'Implementation-Vendor': 'New Relic'
     attributes 'Implementation-Vendor-Id': 'com.newrelic'
     attributes 'Implementation-Version': 1.0
@@ -22,5 +22,5 @@ jar {
 }
 
 verifyInstrumentation {
-	passes  'org.voltdb:voltdbclient:[9.2.0,10.2.5)'
+	passes  'org.voltdb:voltdbclient:[10.2.5,)'
 }
