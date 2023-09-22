@@ -11,8 +11,6 @@
 - Fixed Repolinter error and added stats
 
 
-### Build Upgrades
-- Updated vendor title
 
 
 ## Installation
