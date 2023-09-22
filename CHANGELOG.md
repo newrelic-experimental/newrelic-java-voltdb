@@ -1,3 +1,17 @@
+## Version: [v1.0.1](https://github.com/newrelic-experimental/newrelic-java-voltdb/releases/tag/v1.0.1) | Created: 2023-09-22
+### Bug Fixes
+- Uild fixes
+- Erge pull request #1 from newrelic-experimental/buildfixes
+- Uild fixes
+- Erge pull request #2 from newrelic-experimental/buildfixes
+- Ixed Repolinter error and added stats
+- Ixed Repolinter error and added stats
+
+### Build Upgrades
+- Pdate build.gradle
+- Updated vendor title
+
+
 ## Installation
 
 To install:
