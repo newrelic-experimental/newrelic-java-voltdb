@@ -23,4 +23,5 @@ jar {
 
 verifyInstrumentation {
 	passes  'org.voltdb:voltdbclient:[10.2.5,)'
+	exclude 'org.voltdb:voltdbclient:14.3.0'
 }
