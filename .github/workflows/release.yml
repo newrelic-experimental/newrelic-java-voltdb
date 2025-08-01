@@ -1,4 +1,4 @@
-name: Build and Release (Manual Run) v1.3
+name: Build and Release (Manual Run) v1.4
 
 on: 
  workflow_dispatch: # This event allows manual triggering
@@ -59,7 +59,7 @@ jobs:
         run: |
           major_version=1
           minor_version=0
-          patch_revision=1
+          patch_revision=0
 
           # Retrieve the latest release tag
           latest_tag=$(git describe --abbrev=0 --tags 2>/dev/null) || true
@@ -218,4 +218,3 @@ jobs:
               } catch (error) {
                 core.setFailed(error.message);
               }
-
