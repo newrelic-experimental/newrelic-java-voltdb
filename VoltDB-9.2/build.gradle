@@ -7,9 +7,9 @@ dependencies {
    implementation group: 'org.voltdb', name: 'voltdbclient', version: '9.2.1'
 
    // New Relic Labs Java Agent dependencies
-   implementation 'com.newrelic.agent.java:newrelic-agent:6.0.0'
-   implementation 'com.newrelic.agent.java:newrelic-api:6.0.0'
-   implementation fileTree(include: ['*.jar'], dir: '../libs')
+   implementation 'com.newrelic.agent.java:newrelic-agent:' + project.findProperty('java.agent.version')
+   implementation 'com.newrelic.agent.java:newrelic-api:' + project.findProperty('java.agent.version')
+   implementation 'com.newrelic.agent.java:agent-bridge:' + project.findProperty('java.agent.version')
 }
 
 jar {
@@ -22,5 +22,5 @@ jar {
 }
 
 verifyInstrumentation {
-	passes  'org.voltdb:voltdbclient:[9.2.0,10.2.5)'
+	passesOnly 'org.voltdb:voltdbclient:[9.2.0,10.2.5)'
 }
